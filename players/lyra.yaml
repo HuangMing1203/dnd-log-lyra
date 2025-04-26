@@ -1,0 +1,208 @@
+name: 莱拉/Lyra
+race:
+  name: 精灵/Elf
+  subrace: 月精灵/Moon Elf # Moon Elf is a kind of High Elf
+  size: 中型/Medium
+  speed: 30 ft
+  traits:
+  - name: 黑暗视觉/Darkvision
+    description: Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+  - name: 高等精灵血统/High Elven Lineage
+    description: You know one cantrip of your choice from the Wizard spell list. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list. Charisma is your spellcasting ability for the spells you cast with this trait.
+  - name: 精类血统/Fey Ancestry
+    description: You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+  - name: 敏锐感知/Keen Senses
+    description: You have proficiency in the Perception skill.
+  - name: 出神/Trance
+    description: Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+  proficiencies:
+    languages:
+    - 通用语/Common
+    - 精灵语/Elvish
+    - 矮人语/Dwarvish
+    weapons:
+    - 长弓/Longbow
+    - 长剑/Longsword
+    - 短弓/Shortbow
+    - 短剑/Shortsword
+level: 1
+experience: 0
+class:
+  name: 妓女/Prostitute # Equivalent to Bard
+  traits:
+  - name: 诗人激励/Bardic Inspiration
+    description: |+
+      You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.
+
+      Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.
+
+      You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.
+
+      Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
+  proficiencies:
+    armour:
+    - 轻甲/Light Armour
+    saving:
+    - DEX
+    - CHA
+    skills:
+    - Sleight of Hand
+    - Intimidation
+    - Persuasion
+    tools:
+    - 长笛/Flute
+    - 竖琴/Harp
+    - 鲁特琴/Lute
+    weapons:
+    - 简单武器/Simple Weapon
+    - 手弩/Hand Crossbow
+    - 长剑/Longsword
+    - 刺剑/Rapier
+    - 短剑/Shortsword
+background:
+  name: 荡妇/Whore
+  traits:
+  - name: 人见人爱/By Popular Demand
+    description: 在城镇中因职业小有名气，走在路上可能会被熟客或者崇拜者认出，可通过熟客或崇拜者获取信息或庇护，但这一切并非没有代价。
+  proficiencies:
+    skills:
+    - Performance
+    - Deception
+    tools:
+    - 化妆工具/Disguise Kit
+    - 情趣用品/Sex Toys
+characteristics:
+  alignment: 混乱中立/Chaotic Neutral
+  faith: null
+  lifestyle: 一无所有/Wretched
+  personality:
+    traits: 我用笑容掩盖内心的痛苦，总能找到理由继续前行。
+    ideals: 我追求自由，渴望摆脱束缚，无论是身体还是社会偏见。
+    bonds: 我愿意为了满足自身的欲望付出任何代价。
+    flaws: 我有时过于依赖外貌和魅力，忽视潜在的危险。
+  backstory: |+
+    一、月影谷的星光
+
+    里拉（Lyra）出生于月影谷（Valley de Moonshadow），一片沐浴在星光下的精灵林地，月精灵的家园。她的童年如梦境般美好：她随母亲学习月精灵的星歌，银色长发在夜风中舞动，蓝色眼眸映着银河。她在父亲的指导下触摸魔法，学会了简单的魔法伎俩，点亮林间的萤火。月影谷的长老教导她自由与美的真谛，她梦想成为一名吟游诗人，用歌声传颂精灵的传说。然而，80岁（相当于人类12岁）那年，灾难降临。强盗袭击村庄，烈焰吞噬树屋，父母的血染红了她的记忆。Lyra被铁链锁在奴隶商的货车里，尖尖的精灵长耳颤抖，泪水模糊了星空。
+
+    二、黑玫瑰的囚笼
+
+    Lyra被卖到艾尔文城（City of Alvine），一个罪恶滋生的港口城市，地下的黑玫瑰妓院（Brothel of Dark Roses）成了她的牢笼。老鸨玛格丽特（Margaret）——一个肥胖的女矮人，涂着厚重的胭脂，眼神如毒蛇——以五十金币买下她，冷笑：“这小精灵会让我发财。”Lyra被锁在渗水的暗室，稻草为床，铁栅栏生锈。她倔强反抗，尖叫：“我是月影谷的女儿！”Margaret冷笑，扇她耳光，血丝从Lyra嘴角渗出：“你现在是我的狗，学着讨好男人吧。”最初四年，Lyra被训练礼仪，学习人类语言，强迫穿上暴露的丝裙，裙摆短得遮不住大腿，胸口低得露出尚未发育的曲线。她试图逃跑，藏在酒桶里，却被抓回，Margaret用荆条抽打她的背，留下紫红鞭痕，低吼：“再跑，剁了你的耳朵！”
+
+    84岁，Lyra被迫接客。第一个嫖客是个矮人商人，胡须油腻，气味刺鼻。她青涩笨拙，推搡反抗，咬了他的手，尖叫：“别碰我！”嫖客怒骂，Margaret冲入房间，揪住Lyra的银发，将她按在桌上，用皮鞭抽打臀部，啪啪声回荡，皮开肉绽。她哭喊：“我错了……别打……”Margaret冷笑：“待客不佳，就饿三天！”Lyra被锁在暗室，三天无食，虚弱到昏厥，只能舔地上的水渍。第四天，她被拖出，强迫跪在嫖客面前，低语：“对不起……请用我……”她的反抗被饥饿和鞭打磨灭，青涩的精灵少女开始学会顺从。
+
+    三、紫焰花露的深渊
+
+    Margaret深知Lyra的价值——精灵的精致容貌和异域气质是金币的源泉。为榨取更多利润，她引入“紫焰花露”，一种从深渊进口的炼金媚药，紫色的液体散发出甜腻的香气，涂抹后皮肤会如烈焰灼烧，激发无法抗拒的欲望。Lyra首次被施药时，Margaret将药剂涂在她赤裸的胸口和私处，液体如火焰渗入皮肤。“好烫！停下！”Lyra尖叫道。但药效让她身体滚烫，乳头坚硬，私处湿润，意识模糊，呻吟不受控制：“我……我好想要……”Margaret冷笑道：“好母狗，学会讨要了。”一个人类佣兵将Lyra压在床上，她无力反抗，呻吟低喘，双腿无意识缠住对方，泪水滑落，羞耻与快感交织。
+
+    85岁，一个法师常客给Margaret提供了更强效的药剂——紫焰花露混合魅魔精华。Lyra被绑在木架上，药剂涂满乳房、腹部和私处。她痉挛尖叫，如有电流窜遍全身，身体弓起，呻吟如泣：“求你……给我……”她的蓝色眼眸失去焦距，银发散乱，痴态让常客狂笑：“这精灵是天生的婊子！”
+
+    药剂每天施用，调教Lyra的身体。她被训练成“银发妖精”，学会用舌头取悦，用身体迎合，每晚接客十余人，呻吟和鞭打声回荡暗室。被施药的身体如烈焰焚烧，嫖客的粗暴反而成了解脱。她的灵魂在欲望中沉沦，精灵的优雅被痴态取代。Margaret十分得意：“她是我的金矿。”
+
+    四、嫖客的残虐
+
+    妓院的嫖客毫无人性，Lyra成了他们的玩物。一个半兽人佣兵用皮革狗链栓住她，颈部勒痕渗血，逼她当众在妓院大厅里爬行，舔地板上的酒渍，低吼：“母狗，学狗叫！”她泪流满面，呜咽模仿狗吠，恩客的哄笑刺耳，羞耻让她颤抖。一个人类贵族喜欢绳缚，将她在房间里高高吊起，用龟甲缚勒紧她的胸口和私处，绳索嵌入苍白皮肤紫红勒痕触目惊心。他将滚烫的蜡油滴在她身上，烫伤混杂媚药的灼烧，令她尖叫求饶。那个法师嫖客最为残忍，将她绑在铁床上，涂抹各实验药剂，甚至直接撬开她的嘴逼她服下。药液如毒火侵蚀，她尖叫：“我的身体……要裂开了！”法师冷笑，用羽毛和冰块刺激她的敏感部位，记录她的呻吟和痉挛：“真是完美的实验品。”Lyra的意识在药效中破碎，身体如傀儡，银发沾满嫖客的精液，蓝色眼眸空洞无神。
+
+    五、性瘾的诅咒
+
+    90岁（相当于人类17岁），Lyra的身体彻底对性爱上瘾，紫焰花露和魅魔精华的长期侵蚀让她无法摆脱性欲的折磨。恩客离去后的暗室寂静成了酷刑，她蜷缩在床上，双手无意识滑向私处，一边自慰一边哭泣：“我是个肮脏的婊子……月影谷的耻辱……”高潮的快感短暂，只留下无尽的羞耻。一晚，她试图割腕自杀，鲜血流满地面：“让我死……”Margaret怒吼：“我的金币怎么办！”她命打手将Lyra牢牢绑起，不让她再自杀，又逼她服下双倍媚药，用皮鞭抽打她的身体，药效和鞭刑让她尖叫痉挛。Lyra被锁在笼子里三天，饥饿和药剂让她放弃轻生，欲望的深渊将她吞噬。“你只能活着当狗。”Margaret冷笑道。
+
+    六、地牢的觉醒
+
+    Lyra被派往艾尔文伯爵卡萨斯（Casas the Earl of Alvine）的庄园提供服务，却被下药送入邪教的地牢。地牢的魔法折磨将她的性瘾放大到极限，符文烙印在她的皮肤，欲望如烈焰焚烧。然而，精灵的灵魂在微弱闪烁。她在地牢中回忆起月影谷的星歌，哼唱低语，唤醒了沉睡的魔法天赋。凭借魅力、机智和微薄的魔法，她发誓要逃脱，夺回自由。赤裸的身体布满淤青，铁链束缚她的手腕，但她的蓝色眼眸燃起一丝反抗的火光。月影谷的记忆、妓院的创伤、性瘾的诅咒如影随形，她轻声低语：“我不会再做任何人的狗。”
+  physical:
+    age: 90 yrs # Equivalent to 17 yrs for humans
+    height: 4'11"
+    weight: 90 lb
+    eyes: 蓝色/Blue
+    skin: 苍白/Pale
+    hair: 银白色长发/Silver Long
+ability:
+  HP:
+    current: 7
+    max: 8 # 8 (1st level Bard) + CON Modifier * 1
+    temporary: 0
+    dice: 1d8 # by class: Prostitute
+    expendedDice: 0
+  initiative: +3 # DEX Modifier
+  AC: 13 # Armour + DEX Modifier
+  scores:
+    STR: 8
+    DEX: 16 # 14 + 2 (by race: Elf)
+    CON: 10
+    INT: 14 # 13 + 1 (by race: High Elf)
+    WIS: 12
+    CHA: 15
+  modifiers:
+    STR: -1
+    DEX: +3
+    CON: 0
+    INT: +2
+    WIS: +1
+    CHA: +2
+  proficiencyBonus: +2
+  inspiration: 0
+  saves:
+    STR: -1
+    DEX: +5 # with proficiency by class: Prostitute
+    CON: 0
+    INT: +2
+    WIS: +1
+    CHA: +4 # with proficiency by class: Prostitute
+  skills:
+    STR:
+      Athletics: -1
+    DEX:
+      Acrobatics: +3
+      Sleight of Hand: +5 # with proficiency by class: Prostitute
+      Stealth: +3
+    INT:
+      Arcana: +2
+      History: +2
+      Investigation: +2
+      Religion: +2
+    WIS:
+      Animal Handling: +1
+      Insight: +1
+      Medicine: +1
+      Perception: +3 # with proficiency by race: Elf
+      Survival: +1
+    CHA:
+      Deception: +4 # with proficiency by background: Whore
+      Intimidation: +4 # with proficiency by class: Prostitute
+      Performance: +4 # with proficiency by background: Whore
+      Persuasion: +4 # with proficiency by class: Prostitute
+  senses:
+    darkvision: 60 ft # by race: Elf
+    passive:
+      Insight: 11 # 10 + Insight Modifier
+      Investigation: 12 # 10 + Investigation Modifier
+      Perception: 13 # 10 + Perception Modifier
+spells:
+  castingAbility: CHA
+  saveDC: 12 # 8 + Proficiency Bonus + Casting Ability Modifier
+  attackBonus: +4 # Proficiency Bonus + Casting Ability Modifier
+  castingMedium: 歌声/Voice
+  slots:
+    total:
+      1st-level: 2
+    expended:
+      1st-level: 0
+  cantrips:
+  - 次级幻术/Minor Illusion
+  - 魔法伎俩/Prestidigitation # by race: High Elf
+  - 恶言相加/Vicious Mockery
+  1st-level:
+  - 魅惑人类/Charm Person
+  - 易容术/Disguise Self
+  - 治疗真言/Healing Word
+  - 雷鸣波/Thunderwave
+equipment: []
+inventory:
+  backpack: null
+  gold: 0
+state:
+- name: 性爱成瘾/Sex Addicted
+  description: 每过一个小时，你需要执行一次体质豁免鉴定（DC 10）。豁免失败则进入十个回合的性欲高涨/Sexually Aroused状态。若你在上次长休后有自慰或做爱的经历，则直到下次长休前，豁免自动成功。
+# - name: 性欲高涨/Sexually Aroused
+#   description: 你俯身倒地/Prone，无法起立或行动，只能自慰并低声呻吟。如果你拥有情趣用品/Sex Toys以及其熟练项，则你自动使用情趣用品自慰，每回合可以额外缩短一回合的性欲高涨/Sexually Aroused状态的时间。距离你不超过1ft的其他角色，可以使用一个动作，与你做爱，缩短一回合的性欲高涨/Sexually Aroused状态的时间。如果与你做爱的角色拥有情趣用品/Sex Toys以及其熟练项，则每次与你做爱时可以用这些玩具进一步刺激你的性欲，额外缩短一回合的性欲高涨/Sexually Aroused状态的时间。
