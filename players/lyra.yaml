@@ -110,6 +110,10 @@ characteristics:
     六、地牢的觉醒
 
     Lyra被派往艾尔文伯爵卡萨斯（Casas the Earl of Alvine）的庄园提供服务，却被下药送入邪教的地牢。地牢的魔法折磨将她的性瘾放大到极限，符文烙印在她的皮肤，欲望如烈焰焚烧。然而，精灵的灵魂在微弱闪烁。她在地牢中回忆起月影谷的星歌，哼唱低语，唤醒了沉睡的魔法天赋。凭借魅力、机智和微薄的魔法，她诱惑看守，施展魔法，成功逃出地牢，赤裸的身体布满淤青，铁链的伤痕依旧刺痛，但她的蓝色眼眸燃起反抗的火光。她在荒野中躲避追兵，月影谷的记忆、妓院的创伤、性瘾的诅咒如影随形，她轻声低语：“我不会再做任何人的狗。”
+
+    七、初遇冒险者
+
+    在森林的夜色中，Lyra遇见了一支由女性组成的冒险者团队。她们围坐在篝火旁，火光映照出她们坚毅的面容。高等精灵法师Alice、矮人牧师Clara、半身人盗贼Lily、人类战士双胞胎Emma和May、侏儒术士Phoebe——她们的目光中没有轻蔑，只有同情与温暖。Lyra裹着Alice借给她的斗篷，讲述了自己的遭遇，泪水滑落，声音颤抖。冒险者们给予她食物、衣物和庇护，Clara的*治疗真言*治愈了她的伤口，Phoebe的热汤温暖了她的身体。Lily的亲密让她在屈辱中感受到一丝安慰，她们在树影中分享了隐秘的狂欢，Lily的触碰和温柔让她在黑暗中看到了一丝光亮。冒险者们的善意与守护，让Lyra感到自己不再是孤身一人，她们成为了她新的盟友与希望。
   physical:
     age: 90 yrs # Equivalent to 17 yrs for humans
     height: 4'11"
@@ -119,13 +123,13 @@ characteristics:
     hair: 银白色长发/Silver Long
 ability:
   HP:
-    current: 7
+    current: 8
     max: 8 # 8 (1st level Bard) + CON Modifier * 1
     temporary: 0
     dice: 1d8 # by class: Prostitute
     expendedDice: 0
   initiative: +3 # DEX Modifier
-  AC: 13 # Armour + DEX Modifier
+  AC: 14 # Armour + DEX Modifier
   scores:
     STR: 8
     DEX: 16 # 14 + 2 (by race: Elf)
@@ -187,7 +191,7 @@ spells:
     total:
       1st-level: 2
     expended:
-      1st-level: 1
+      1st-level: 0
   cantrips:
   - 次级幻术/Minor Illusion
   - 魔法伎俩/Prestidigitation # by race: High Elf
@@ -197,16 +201,26 @@ spells:
   - 易容术/Disguise Self
   - 治疗真言/Healing Word
   - 雷鸣波/Thunderwave
-equipment: []
+equipment:
+- name: 斗篷/Cloak
+  type: clothing
+- name: 紧身皮衣/Tight Leather Armor
+  type: light armor # AC 11
+- name: 软靴/Soft Boots
+  type: footwear
 inventory:
-  backpack: null
+  backpack:
+  - name: 硬面包/Hard Bread
+  - name: 干酪/Cheese
+  - name: 水壶/Water Bottle
+  - name: 亚麻长袍/Linen Robe
+  - name: 毛毯/Blanket
+  - name: 圣水/Holy Water
   gold: 0
 state:
-# - name: 性爱成瘾/Sex Addicted
-#   description: 每过一个小时，你需要执行一次体质豁免鉴定（DC 10）。豁免失败则进入十个回合的性欲高涨/Sexually Aroused状态。若你在上次长休后有自慰或做爱的经历，则直到下次长休前，豁免自动成功。
-- name: 性爱成瘾（已释放）/Sex Addicted (Relieved)
-  description: 你的身体暂时满足了性瘾的需求。在下次长休前，你无需进行体质豁免鉴定。在你结束下次长休后，本状态恢复至性爱成瘾/Sex Addicted状态。
+- name: 性爱成瘾/Sex Addicted
+  description: 每过一个小时，你需要执行一次体质豁免鉴定（DC 10）。豁免失败则进入十个回合的性欲高涨/Sexually Aroused状态。若你在上次长休后有自慰或做爱的经历，则直到下次长休前，豁免自动成功。
+# - name: 性爱成瘾（已释放）/Sex Addicted (Relieved)
+#   description: 你的身体暂时满足了性瘾的需求。在下次长休前，你无需进行体质豁免鉴定。在你结束下次长休后，本状态恢复至性爱成瘾/Sex Addicted状态。
 # - name: 性欲高涨/Sexually Aroused
 #   description: 你俯身倒地/Prone，无法起立或行动，只能自慰并低声呻吟。如果你拥有情趣用品/Sex Toys以及其熟练项，则你自动使用情趣用品自慰，每回合可以额外缩短一回合的性欲高涨/Sexually Aroused状态的时间。距离你不超过1ft的其他角色，可以使用一个动作，与你做爱，缩短一回合的性欲高涨/Sexually Aroused状态的时间。如果与你做爱的角色拥有情趣用品/Sex Toys以及其熟练项，则每次与你做爱时可以用这些玩具进一步刺激你的性欲，额外缩短一回合的性欲高涨/Sexually Aroused状态的时间。
-- name: 疲惫/Exhausted
-  description: 由于与兽人的剧烈性爱，你的体力透支。所有与体力相关的检定（包括力量、敏捷和体质检定）有劣势。此状态在短休或长休后移除。
