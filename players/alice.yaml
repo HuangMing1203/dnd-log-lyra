@@ -1,0 +1,238 @@
+name: 爱丽丝/Alice
+race:
+  name: 精灵/Elf
+  subrace: 日精灵/Sun Elf # Sun Elf is a kind of High Elf
+  size: 中型/Medium
+  speed: 30 ft
+  traits:
+  - name: 黑暗视觉/Darkvision
+    description: Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+  - name: 高等精灵血统/High Elven Lineage
+    description: You know one cantrip of your choice from the Wizard spell list. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list. Intelligence is your spellcasting ability for the spells you cast with this trait.
+  - name: 精类血统/Fey Ancestry
+    description: You have advantage on saving throws against being charmed, and magic can't put you to sleep.
+  - name: 敏锐感知/Keen Senses
+    description: You have proficiency in the Perception skill.
+  - name: 出神/Trance
+    description: Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+  proficiencies:
+    languages:
+    - 通用语/Common
+    - 精灵语/Elvish
+    - 天界语/Celestial
+    weapons:
+    - 长弓/Longbow
+    - 长剑/Longsword
+    - 短弓/Shortbow
+    - 短剑/Shortsword
+level: 4
+experience: 6000
+class:
+  name: 法师/Wizard
+  subclass: 预言学派/School of Divination
+  traits:
+  - name: 奥术恢复/Arcane Recovery
+    description: You have learned to regain some of your magical energy by studying your spellbook. Once per day when you finish a short rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your wizard level (rounded up), and none of the slots can be 6th level or higher.
+  - name: 预言学者/Divination Savant
+    description: Beginning when you select this school at 2nd level, the gold and time you must spend to copy a Divination spell into your spellbook is halved.
+  - name: 预兆/Portent
+    description: |+
+      Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.
+
+      Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.
+  proficiencies:
+    armour: []
+    saving:
+    - INT
+    - WIS
+    skills:
+    - Insight
+    - Investigation
+    tools: []
+    weapons:
+    - 匕首/Dagger
+    - 飞镖/Dart
+    - 轻弩/Light Crossbow
+    - 木杖/Quarterstaff
+    - 投石索/Sling
+background:
+  name: 学者/Sage
+  traits:
+  - name: 研究员/Researcher
+    description: When you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information comes from a library, scriptorium, university, or a sage or other learned person or creature.
+  proficiencies:
+    skills:
+    - Arcana
+    - History
+    languages:
+    - 矮人语/Dwarvish
+    - 龙语/Draconic
+characteristics:
+  alignment: 守序善良/Lawful Good
+  faith: 柯瑞隆·拉瑞斯安/Corellon Larethian # Elf Deity of Art and Magic
+  lifestyle: 舒适/Comfortable
+  personality:
+    traits: 我对知识充满渴求，总是带着一本书或卷轴，随时记录新的发现。
+    ideals: 知识是世界的基石，分享它能让世界更美好。
+    bonds: 我的导师是我的一切，我立誓完成他未竟的研究。
+    flaws: 我有时过于沉迷学术，忽略周围的危险或他人的情感。
+  backstory: |+
+    一、星辉初绽：提洛岛的魔法启蒙
+
+    爱丽丝（Alice）出生于提洛岛（Delos Island）一个古老的日精灵家族，家族以研究奥术和预言魔法闻名。她的童年在星辉塔（Tower of Starlight）中度过，这座漂浮于云端的魔法学院由星晶石构筑，墙壁散发柔和光芒，仿佛星辰的低语。年幼的Alice展现出惊艳的魔法天赋：她能在星光下感知命运的细微波动，梦境中偶尔窥见模糊的未来片段。她的导师，传奇日精灵法师艾德琳（Eldrin），发现了她对预言学派的罕见天赋，亲自教导她解读星辰、操控命运的丝线。
+
+    在星辉塔的图书馆中，Alice手持羽毛笔，埋首于古老卷轴，记录Eldrin的教诲。她的金色长发在塔顶的风中舞动，琥珀色眼眸映着星光，梦想成为一名伟大的预言法师。然而，Eldrin在研究一枚神秘的预言水晶时突然失踪，留下一本未完成的笔记和一句令人不安的警告：“命运的裂隙将吞噬一切。”年幼的Alice握着导师赠予的星晶吊坠，立誓解开水晶的秘密，找到Eldrin的下落。
+
+    二、逐星之路：背井离乡的追寻
+
+    在100岁成年时，Alice告别提洛岛，踏上追寻Eldrin足迹的旅程。她穿越大海与森林，足迹遍布费伦大陆的村庄、城市与荒野，三年的漂泊让她从青涩的学徒成长为坚韧的旅人。她凭借预言魔法避开强盗的埋伏，解读星象找到安全的道路。她的优雅与智慧吸引了无数旅人的目光，但她始终专注于Eldrin的笔记，试图破解预言水晶的奥秘。
+
+    旅途中，Alice发现Eldrin的研究涉及一种古老的魔法仪式，可能与操控命运本身有关。她在废弃的法师塔、隐秘的图书馆和偏远的村庄中搜寻线索，却总是比答案晚一步。一次，她在月光下使用预言魔法，窥见Eldrin被暗影笼罩的身影，似乎被某种邪恶力量追逐。这让她确信，导师的失踪背后隐藏着一个更大的阴谋。三年的漂泊磨砺了她的心智，也让她学会在命运的迷雾中寻找方向。
+
+    三、学海灯塔：艾尔文城的首席荣光
+
+    在103岁时，Alice抵达费伦大陆的港口城市艾尔文城（City of Alvine），结束了漫长的旅途。她凭借渊博的学识和精准的预言魔法，受邀加入艾尔文魔法学院（Alvine Academy of Magic）。起初，她作为一名客座讲师，教授预言学派与奥术理论。她的课堂充满魅力：她用星晶吊坠演示命运的流动，讲解星辰与魔法的联系，吸引了众多学生。她的教学风格优雅而严谨，学生们既敬畏她的智慧，又被她的热情感染。
+
+    Alice的才华很快得到学院高层的赏识。她在一次公开的奥术研讨会上展示了预言魔法的应用，精准预测了一场风暴的到来，保护了学院的实验设施。这次壮举让她在104岁时被任命为首席导师，成为学院历史上提拔最快的首席之一。她在学院的图书馆中继续研究Eldrin的笔记，探索预言水晶与命运的联系，同时指导学生，点亮艾尔文城的学术之光。她的琥珀色眼眸中，燃着对知识与使命的渴望。
+
+    四、暗影裂隙：追查邪教的阴谋
+
+    成为首席导师后，Alice的预言天赋越发精进，她开始察觉到一股暗中势力的威胁。她的研究触及了预言水晶的禁忌秘密，引来一个神秘邪教的注意。这个教团觊觎水晶的力量，试图利用它扭曲命运，达成不可告人的目的。Alice的预言让她数次避开教团的暗算：她预见了刺客的匕首，提前施展防护魔法；她窥见了学院中的阴谋，暗中警告盟友。一次，她在预言中看到Eldrin被困在一个被暗影笼罩的仪式大厅，周围环绕着教团的符文。
+
+    这让她意识到，Eldrin的失踪与邪教的阴谋密切相关。Alice开始主动出击，与冒险者合作，追查教团的据点。她在艾尔文城的下水道中发现他们的秘密祭坛，在偏远的山脉中摧毁他们的仪式。她的魔法优雅而致命，寒冰射线与魔法飞弹精准打击敌人，迷踪步让她在战斗中如幽灵般灵动。每一次胜利，都让她离导师的真相更近一步，但也让她感受到命运的沉重压力。她低语：“我必须阻止他们，否则命运的裂隙将吞噬一切。”
+
+    五、命运引线：冒险者的星辰征途
+
+    尽管身为首席导师，Alice不甘于困守书斋。她相信，命运的指引需要她亲自踏上冒险之路。她的预言天赋让她在冒险中如鱼得水：她能预见盟友的失败，及时扭转战局；她能感知敌人的弱点，引导队伍取得胜利。她的星晶吊坠不仅是奥术的焦点，也是她与Eldrin教诲的连接，每次施法，她都能感受到导师的指引在她心中回响。
+
+    Alice的冒险不仅是为了追查邪教和Eldrin的下落，也是为了守护艾尔文城与费伦大陆的和平。她的旅程将她带到危险的遗迹、神秘的森林和被诅咒的城市，每一步都在考验她的智慧与勇气。她的金色长发在风中飘扬，琥珀色眼眸注视着远方，手中紧握魔法书，准备迎接命运的下一个挑战。她低语：“命运或许不可改变，但我可以引导它的方向。”
+  physical:
+    age: 110 yrs # Equivalent to 25 yrs for humans
+    height: 5'3"
+    weight: 105 lb
+    eyes: 琥珀色/Amber
+    skin: 象牙白/Ivory
+    hair: 金色长发/Blonde Long
+ability:
+  HP:
+    current: 17
+    max: 17 # 14 (3rd level Wizard) + CON Modifier * 3
+    temporary: 0
+    dice: 1d6 # by class: Wizard
+    expendedDice: 0
+  initiative: +3 # DEX Modifier
+  AC: 13 # Armour + DEX Modifier
+  scores:
+    STR: 10
+    DEX: 16 # 14 + 2 (by race: Elf)
+    CON: 13
+    INT: 18 # 15 + 1 (by race: High Elf) + 2 (by feat: Wizard)
+    WIS: 12
+    CHA: 8
+  modifiers:
+    STR: 0
+    DEX: +3
+    CON: +1
+    INT: +4
+    WIS: +1
+    CHA: -1
+  proficiencyBonus: +2
+  inspiration: 0
+  saves:
+    STR: 0
+    DEX: +3
+    CON: +1
+    INT: +6 # with proficiency by class: Wizard
+    WIS: +3 # with proficiency by class: Wizard
+    CHA: -1
+  skills:
+    STR:
+      Athletics: 0
+    DEX:
+      Acrobatics: +3
+      Sleight of Hand: +3
+      Stealth: +3
+    INT:
+      Arcana: +6 # with proficiency by background: Sage
+      History: +6 # with proficiency by background: Sage
+      Investigation: +6 # with proficiency by class: Wizard
+      Religion: +4
+    WIS:
+      Animal Handling: +1
+      Insight: +3 # with proficiency by class: Wizard
+      Medicine: +1
+      Perception: +3 # with proficiency by race: Elf
+      Survival: +1
+    CHA:
+      Deception: -1
+      Intimidation: -1
+      Performance: -1
+      Persuasion: -1
+  senses:
+    darkvision: 60 ft # by race: Elf
+    passive:
+      Insight: 13 # 10 + Insight Modifier
+      Investigation: 16 # 10 + Investigation Modifier
+      Perception: 13 # 10 + Perception Modifier
+spells:
+  castingAbility: INT
+  saveDC: 14 # 8 + Proficiency Bonus + Casting Ability Modifier
+  attackBonus: +6 # Proficiency Bonus + Casting Ability Modifier
+  castingMedium: 星晶吊坠/Starcrystal Pendant
+  slots:
+    total:
+      1st-level: 4
+      2nd-level: 3
+    expended:
+      1st-level: 0
+      2nd-level: 0
+  # Number of Prepared Wizard Spells = 4 (INT Modifier) + 4 (Wizard Level) = 8
+  cantrips:
+  - 法师之手/Mage Hand # by race: High Elf
+  - 修复术/Mending
+  - 次级幻术/Minor Illusion
+  - 魔法伎俩/Prestidigitation
+  - 寒冰射线/Ray of Frost
+  1st-level:
+  - 侦测魔法/Detect Magic # Prepared
+  - 羽落术/Feather Fall
+  - 跳跃术/Jump
+  - 大步奔行/Longstrider
+  - 法师护甲/Mage Armor # Prepared
+  - 魔法飞弹/Magic Missile # Prepared
+  - 护盾术/Shield # Prepared
+  - 睡眠术/Sleep # Prepared
+  2nd-level:
+  - 匕首之云/Cloud of Daggers # Prepared
+  - 侦测思想/Detect Thoughts
+  - 人类定身术/Hold Person # Prepared
+  - 迷踪步/Misty Step # Prepared
+equipment:
+- name: 手杖/Quarterstaff
+  type: quarterstaff
+- name: 长袍/Robe
+  type: clothing
+- name: 软靴/Soft Boots
+  type: footwear
+- name: 星晶吊坠/Star Crystal Pendant # Arcane Focus
+  type: amulet
+inventory:
+  backpack:
+  - name: 匕首/Dagger
+  - name: 匕首/Dagger
+  - name: 魔法书/Spellbook
+  - name: 学者装束/Scholar Outfit
+  - name: 墨水/Ink
+  - name: 羽毛笔/Quill
+  - name: 羊皮纸/Parchment
+    count: 10
+  - name: 水壶/Water Bottle
+  - name: 干粮/Rations
+    count: 5
+  - name: 火绒盒/Tinderbox
+  - name: 提灯/Lamp
+  - name: 油/Oil
+    count: 10
+  - name: 小刀/Knife
+  gold: 15
+state: []
