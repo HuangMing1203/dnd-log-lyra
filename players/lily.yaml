@@ -1,0 +1,225 @@
+name: 莉莉/Lily
+race:
+  name: 半身人/Halfling
+  subrace: 轻足半身人/Lightfoot Halfling
+  size: 小型/Small
+  speed: 25 ft
+  traits:
+  - name: 幸运/Lucky
+    description: When you roll a 1 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.
+  - name: 勇气/Brave
+    description: You have advantage on saving throws against being frightened.
+  - name: 半身人灵巧/Halfling Nimbleness
+    description: You can move through the space of any creature that is of a size larger than yours.
+  - name: 天生善匿/Naturally Stealthy
+    description: You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.
+  proficiencies:
+    languages:
+    - 通用语/Common
+    - 半身人语/Halfling
+level: 3
+experience: 2500
+class:
+  name: 游荡者/Rogue
+  subclass: 盗贼/Thief
+  traits:
+  - name: 偷袭/Sneak Attack
+    description: |+
+      Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+
+      You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.
+
+      The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.
+  - name: 灵巧动作/Cunning Action
+    description: Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.
+  - name: 快手/Fast Hands
+    description: Starting at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your thieves' tools to disarm a trap or open a lock, or take the Use an Object action.
+  - name: 快手/Second-Story Work
+    description: |+
+      When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.
+
+      In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier.
+  proficiencies:
+    armour:
+    - 轻甲/Light Armour
+    language:
+    - 矮人语/Dwarvish
+    saving:
+    - DEX
+    - INT
+    skills:
+    - Acrobatics
+    - Deception
+    - Intimidation
+    - Perception
+    tools:
+    - 盗贼工具/Thieves' Tools
+    weapons:
+    - 简单武器/Simple Weapon
+    - 手弩/Hand Crossbow
+    - 长剑/Longsword
+    - 刺剑/Rapier
+    - 短剑/Shortsword
+  expertise:
+  - Acrobatics
+  - Deception
+background:
+  name: 孤儿/Urchin
+  traits:
+  - name: 城市密径/City Secrets
+    description: You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.
+  proficiencies:
+    skills:
+    - Sleight of Hand
+    - Stealth
+    tools:
+    - 化妆工具/Disguise Kit
+    - 盗贼工具/Thieves' Tools
+characteristics:
+  alignment: 混乱中立/Chaotic Neutral
+  faith: null
+  lifestyle: 贫穷/Poor
+  personality:
+    traits: 我喜欢钻进别人找不到我的地方。
+    ideals: 改变。在下位的将会崛起，在上位的将会落败。变化才是万物的本质。
+    bonds: 我因抢劫一位大人物而脱贫致富，但我也因此被通缉。
+    flaws: 如果他们不能保管好自己的东西，那这怪不得谁。
+  backstory: |+
+    一、温暖的家与父母的爱
+
+    莉莉（Lily）出生于费伦大陆的港口城市艾尔文城（City of Alvine），她的父母在城中繁华的集市街经营一家小小的布料铺，名为“晨光纺织（Dawning Textiles）”。幼年的记忆对Lily而言如一盏温暖的灯火，模糊却充满幸福。她记得父亲是个和蔼的敦足半身人，棕色卷发下总是挂着憨厚的笑脸，喜欢在铺子后院摆弄染料，哼着乡间小调；母亲是个美貌的轻足半身人，棕色眼眸明亮如星，手指灵巧，能将粗糙的布料缝制成精美的衣裙。Lily最爱的时光是傍晚，母亲会抱着她在铺子后院的苹果树下轻声唱歌，父亲则偷偷塞给她一块蜂蜜糖。她还记得全家围坐在铺子的小阁楼，父亲教她用木弓射箭，母亲在一旁轻笑，空气中弥漫着布料的清香和烤面包的味道。那时的Lily以为，这样的幸福会像艾尔文城的海风一样，永远吹拂。
+
+    二、破碎的童年与父母的悲剧
+
+    Lily八岁那年，一场突如其来的金融风暴席卷了艾尔文城。海贸的崩盘让集市街的生意一落千丈，晨光纺织的布料堆积成山，父母借下的贷款却如潮水般压来。债主们每日上门催债，他们的言语从冷嘲热讽转为恶毒羞辱，甚至砸毁铺子里的染缸和织布机。Lily躲在阁楼的角落，透过地板缝隙看着父亲的笑容逐渐消失，母亲的眼眶总是红肿。父母试图瞒着她，但她能听到深夜里他们的争吵，感受到家里的空气变得沉重如铅。最终，债主们的无情压迫和绝望的债务让父母崩溃。在一个暴风雨的夜晚，母亲紧紧抱着Lily，低语：“对不起，我的宝贝。”第二天清晨，Lily发现父母在铺子后院双双服毒自尽，留下她孤零零地面对空荡的家。
+
+    这场悲剧在Lily心中留下了不可磨灭的阴影。她开始害怕信任他人，害怕任何形式的依赖。她学会用机敏和警惕包裹脆弱的内心，将悲伤藏在狡黠的笑容背后。每当夜深人静，她会梦见父母在苹果树下的笑脸，却总在惊醒时泪流满面，害怕自己有一天也会被绝望吞噬。
+
+    三、街头流浪：机敏与生存的艺术
+
+    失去父母后，债主们收走了晨光纺织和家里的所有财产，Lily被赶出家门，沦为艾尔文城街头的孤儿。九岁的她身材娇小，却展现出惊人的生存能力。靠乞讨和偷窃为生，Lily的棕色卷发下，棕色眼眸总是警惕地扫视周围。她学会了如何在集市偷取面包，如何用甜言蜜语哄骗路人施舍铜板。她的半身人灵巧让她能钻进狭窄的巷子，躲避愤怒的商贩或巡逻的卫兵。
+
+    一次，她在偷一个水果摊的苹果时被发现，摊主怒吼着追来。Lily凭借天生善匿的天赋，迅速藏身在一个醉汉的斗篷后，屏住呼吸，直到摊主骂骂咧咧地离开。另一次，她偷了一个商人的钱袋，却被卫兵追到码头的死胡同。她灵机一动，用滚珠撒了一地，让卫兵摔倒，自己翻过低矮的木箱逃脱。这些经历磨砺了Lily的机敏与敏捷，也让她学会用狡黠和速度对抗艾尔文城街头的残酷。
+
+    四、无师自通的盗贼冒险之路
+
+    十三岁时，Lily的生活迎来了转机。她在艾尔文城集市偷窃时，试图偷一个冒险者的背包，却被对方轻易识破。那人是个游荡者，他没有责骂Lily，反而对她的身手赞赏有加。他看出Lily的潜力，塞给了她一枚银币和一句建议：“与其偷面包，不如偷更大的东西——但要学点真本事。”这句话点醒了Lily，她开始观察城里的盗贼和冒险者，偷学他们的技巧。
+
+    Lily无师自通，凭借敏捷的身手和聪慧的头脑，掌握了开锁、扒窃和潜行的技艺。她学会用匕首和短弓，动作轻盈如猫，出手精准如鹰。她的偷袭技巧在街头斗殴中无往不利，总能找到敌人的破绽。她开始接一些小任务，比如偷窃商人的账本或潜入仓库，逐渐在艾尔文城的地下世界崭露头角。Lily发现，冒险者的生活不仅能填饱肚子，还能让她掌控自己的命运。她立誓要成为一名真正的游荡者，用机智与勇气改写自己的故事。
+
+    五、童年的伙伴与爱的情窦初开
+
+    在流浪的早期，Lily曾遇到另一个孤儿——一个名叫玛莎（Masha）的半身人女孩。Masha比Lily大两岁，性格坚韧而温柔，棕色长发总是扎成马尾。两人一同在艾尔文城的街头流浪，分享偷来的面包，夜晚蜷缩在码头的废弃货箱中互相取暖。Masha教Lily如何用芦苇编草帽，Lily则教Masha如何用铃铛设陷阱。两人形影不离，Lily第一次感受到一种超越友情的温暖，她会在Masha熟睡时偷偷凝视她的脸庞，心跳加速却不知为何。
+
+    然而，Masha梦想离开艾尔文城去乡下，Lily却觉得城市的街头才是她的舞台。十四岁时，两人因意见不合分道扬镳，Masha留下一个草帽，独自离开。Lily将草帽藏在背包深处，每当触碰它，心中都会涌起对Masha的思念。她开始意识到，自己对Masha的感情是一种懵懂的爱。这种思念逐渐转化为对其他女性的关注——她在酒馆里会不自觉地注视女冒险者的笑容，或被女吟游诗人的歌声吸引。Lily接受了自己作为女性同性恋的身份，她将对Masha的思念化为对未来的憧憬，梦想有一天能与心仪的女性并肩冒险。
+
+    六、团队的冒险新篇章
+
+    十八岁时，Lily在艾尔文城的一次冒险中遇到了日精灵法师爱丽丝（Alice）。当时，Lily受雇潜入一个邪教据点偷取一枚符文石，却意外触发了魔法陷阱。危急时刻，Alice的寒冰射线冻结了追来的卫兵，她的迷踪步带着Lily瞬移到安全之地。Alice没有责怪Lily的鲁莽，而是欣赏她的胆识与身手，邀请她加入自己的冒险团队，共同追查赤蛇教的阴谋。Lily被Alice的优雅与智慧吸引，欣然加入。她们并非情侣，但Lily将Alice视为值得信赖的伙伴与导师。Alice的预言魔法能提前预警危险，Lily的潜行与快手则能打开被锁的门或解除陷阱，两人配合天衣无缝。
+
+    在一次冒险中，Lily与Alice的团队在森林营地遇到了月精灵里拉（Lyra），一个刚从地牢逃出的邪教受害者。Lyra裹着破旧的斗篷，银白色长发散乱，蓝色眼眸中带着惊恐与脆弱，诉说她在赤蛇教地牢中被地精和兽人凌辱的经历。她的故事刺痛了Lily的心，勾起了她童年失去父母、街头流浪的痛苦回忆。Lyra的遭遇——被背叛、被剥夺尊严、被困在绝望中——让Lily仿佛看到了当年的自己，那个在艾尔文城街头瑟瑟发抖的小女孩。更让她动容的是Lyra的韧性，她用智慧和魅力从地牢中逃脱，宛如当年的Lily用机敏逃离追捕。
+
+    Lily的目光不由自主地落在Lyra身上，她的苍白皮肤、曼妙曲线和脆弱的神情唤起了Lily对Masha的记忆。她将自己代入Masha的角色，想象自己是那个能保护Lyra、带她走出黑暗的伙伴。Lyra身上高等精灵的优雅与妓女荡妇的堕落交织的气质点燃了Lily的女同性恋情愫，她的心跳加速，内心涌起一股强烈的保护欲与占有欲。她想成为Lyra的依靠，守护她免受进一步的伤害，同时也渴望拥有她的身心。Lily靠近Lyra，低声说：“你受了太多苦，我不会让那些畜生再碰你。”她的语气温柔却带着不容置疑的坚定，手指轻触Lyra的手背，传递着温暖与占有欲的暗示。在冒险的征程中，Lily暗下决心，要用自己的匕首和机智为Lyra撑起一片安全的天空，同时在私密的时刻探索她们之间可能萌芽的亲密羁绊。
+  physical:
+    age: 21 yrs
+    height: 3'6"
+    weight: 45 lb
+    eyes: 棕色/Brown
+    skin: 象牙白/Ivory
+    hair: 棕色短卷发/Brown Short Curly
+ability:
+  HP:
+    current: 24
+    max: 24 # 18 (3rd level Rogue) + CON Modifier * 3
+    temporary: 0
+    dice: 1d8 # by class: Rogue
+    expendedDice: 0
+  initiative: +3 # DEX Modifier
+  AC: 14 # Armour + DEX Modifier
+  scores:
+    STR: 8
+    DEX: 16 # 14 + 2 (by race: Halfling)
+    CON: 15
+    INT: 10
+    WIS: 12
+    CHA: 14 # 13 + 1 (by race: Lightfoot Halfling)
+  modifiers:
+    STR: -1
+    DEX: +3
+    CON: +2
+    INT: 0
+    WIS: +1
+    CHA: +2
+  proficiencyBonus: +2
+  inspiration: 0
+  saves:
+    STR: -1
+    DEX: +5 # with proficiency by class: Rogue
+    CON: +2
+    INT: +2 # with proficiency by class: Rogue
+    WIS: +1
+    CHA: +2
+  skills:
+    STR:
+      Athletics: -1
+    DEX:
+      Acrobatics: +7 # with expertise by class: Rogue
+      Sleight of Hand: +5 # with proficiency by background: Urchin
+      Stealth: +5 # with proficiency by background: Urchin
+    INT:
+      Arcana: 0
+      History: 0
+      Investigation: 0
+      Religion: 0
+    WIS:
+      Animal Handling: +1
+      Insight: +1
+      Medicine: +1
+      Perception: +3 # with proficiency by class: Rogue
+      Survival: +1
+    CHA:
+      Deception: +6 # with expertise by class: Rogue
+      Intimidation: +4 # with proficiency by class: Rogue
+      Performance: +2
+      Persuasion: +2
+  senses:
+    passive:
+      Insight: 11 # 10 + Insight Modifier
+      Investigation: 10 # 10 + Investigation Modifier
+      Perception: 13 # 10 + Perception Modifier
+spells: null
+equipment:
+- name: 匕首/Dagger
+  type: dagger
+- name: 匕首/Dagger
+  type: dagger
+- name: 短弓/Shortbow
+  type: shortbow
+- name: 皮甲/Leather Armor
+  type: light armor # AC 11
+- name: 软靴/Soft Boots
+  type: footwear
+inventory:
+  backpack:
+  - name: 短剑/Shortsword
+  - name: 箭袋/Quiver
+  - name: 箭矢/Arrows
+    count: 20
+  - name: 滚珠/Ball Bearings
+    count: 1000
+  - name: 铃铛/Bell
+  - name: 撬棍/Crowbar
+  - name: 绳索/Rope
+  - name: 水袋/Waterskin
+  - name: 干粮/Rations
+    count: 5
+  - name: 火绒盒/Tinderbox
+  - name: 盗贼工具/Thieves' Tools
+  - name: 连帽灯笼/Hooded Lantern
+  - name: 油/Oil
+    count: 10
+  - name: 蜡烛/Candle
+    count: 10
+  - name: 玛莎的草帽/Masha's Straw Hat
+  gold: 15
+state: []
