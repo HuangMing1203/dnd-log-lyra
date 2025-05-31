@@ -1,0 +1,219 @@
+name: 梅/May
+race:
+  name: 人类/Human
+  size: 中型/Medium
+  speed: 30 ft
+  traits:
+  proficiencies:
+    languages:
+    - 通用语/Common
+    - 矮人语/Dwarvish
+level: 3
+experience: 1900
+class:
+  name: 战士/Fighter
+  subclass: 战斗大师/Battle Master
+  traits:
+  - name: 巨武器战斗/Great Weapon Fighting
+    description: When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+  - name: 回气/Second Wind
+    description: |+
+      You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.
+
+      Once you use this feature, you must finish a short or long rest before you can use it again.
+  - name: 动作如潮/Action Surge
+    description: |+
+      Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action.
+
+      Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.
+  - name: 战斗卓越/Combat Superiority
+    description: |+
+      When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.
+
+      **Maneuvers.** You learn three maneuvers of your choice, which are listed under "Maneuvers" below. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
+
+      You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.
+
+      **Superiority Dice.** You have four superiority dice, which are d8s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+
+      You gain another superiority die at 7th level and one more at 15th level.
+
+      **Saving Throws.** Some of your maneuvers require your target to make a saving throw to resist the maneuver's effects. The saving throw DC is calculated as follows:
+
+      Maneuver save DC = 8 + Strength or Dexterity modifier (your choice) + Proficiency Bonus
+  - name: 挑衅击/Goading Attack
+    description: When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack's damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.
+  - name: 突刺击/Lunging Attack
+    description: When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack's damage roll.
+  - name: 反击/Riposte
+    description: When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll.
+  proficiencies:
+    armour:
+    - 轻甲/Light Armour
+    - 中甲/Medium Armour
+    - 重甲/Heavy Armour
+    - 盾牌/Shield
+    saving:
+    - STR
+    - CON
+    skills:
+    - Acrobatics
+    - Perception
+    tools:
+    - 修理工具/Tinker's Tools
+    weapons:
+    - 简单武器/Simple Weapon
+    - 军用武器/Martial Weapon
+background:
+  name: 士兵/Soldier
+  traits:
+  - name: 军事阶级/Military Rank
+    description: You have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized.
+  proficiencies:
+    skills:
+    - Athletics
+    - Intimidation
+    tools:
+    - 骰子套组/Dice Set
+    - 四轮马车/Carriage
+characteristics:
+  alignment: 守序善良/Lawful Good
+  faith: 提尔/Tyr # God of Justice
+  lifestyle: 拮据/Modest
+  backstory: |+
+    一、孤舟共济：孪生姐妹的童年
+
+    梅（May）和她的孪生姐姐艾玛（Emma）出生于费伦大陆一个偏远的村庄，父母是勤劳的农夫，生活清贫却温馨。然而，六岁时，一场瘟疫无情地夺走了父母的生命，留下姐妹二人相依为命。村庄邻居的善意让她们得以轮流寄宿，但生活的艰辛迫使年幼的May和Emma早早学会自立。May喜欢用双手解决问题，她用木棍练习挥砍，保护Emma免受村庄恶霸的欺凌；Emma则以机敏的头脑化解危机，带着妹妹偷摘果园的苹果或躲避危险。夜晚，姐妹俩依偎在破旧的毯子下，分享对未来的憧憬，May的棕色眼眸中闪着倔强的光芒，低语：“Emma，只要我们在一起，没什么能打倒我们。”
+
+    May的性格果断而直接，她喜欢直面问题，挥舞木棍时毫不犹豫；Emma则更冷静，擅长用策略应对挑战。姐妹俩信奉正义之神提尔（Tyr），他的教诲成为她们心中的灯塔，指引她们在艰难的童年中坚守正直与责任。May常握着Emma的手，笑着说：“你是我的指南针，我是你的剑。”这份姐妹情谊成为她们最坚实的依靠，支撑她们度过失去双亲的悲痛。然而，May内心深处藏着一股渴望——她希望通过自己的行动证明价值，不仅是为了保护Emma，也是为了让世界记住她的名字。
+
+    二、铁血淬炼：艾尔文城的守城岁月
+
+    15岁时，为了摆脱贫困，May和Emma前往费伦大陆的港口城市艾尔文城（City of Alvine），加入了卫兵部队，寻求新的生活。May选择了巨剑作为武器，她喜欢双手紧握剑柄，感受挥砍时的力量。她的巨武器战斗风格让她每一击都充满爆发力，挑衅击和突刺击在训练场上震慑对手；Emma则以长剑和盾牌，追求精准与防御，姐妹俩的战斗风格相辅相成，在卫兵中迅速崭露头角。
+
+    May的果断和无畏让她赢得“铁卫”的称号。她在训练中从不退缩，面对强敌时总是一马当先，用挑衅击吸引敌人注意力，为战友争取机会。她的棕色短发在汗水和风中微微晃动，棕色眼眸中透着对胜利的渴望。Emma则以冷静的领导力稳定队伍，姐妹俩并肩作战，抵御过强盗的突袭，平息过码头的骚乱。每当战斗结束，May总会咧嘴一笑，拍着Emma的肩膀说：“我们又干掉了一群混蛋！”生活虽拮据，战友间的温暖和Emma的陪伴让May感到满足。然而，她的内心深处渴望着更大的挑战，巨剑在手中仿佛在低语，催促她追寻战斗中的荣耀，证明自己不仅是Emma的妹妹，更是一个能改变战局的战士。
+
+    三、命运交织：与Alice的相遇
+
+    在艾尔文城服役的第三年，一场危机改变了姐妹俩的命运。一伙神秘的邪教徒潜入城市，试图在下水道举行危险的仪式，威胁艾尔文城的安全。May和Emma奉命率领小队调查，却在狭窄的地下通道中陷入埋伏，敌人人数众多，形势危急。May挥舞巨剑，用突刺击刺穿敌人，试图为队伍开路，但寡不敌众。就在危急时刻，一位优雅的日精灵法师——爱丽丝（Alice）——出手相助。她以寒冰射线冻结敌人，用迷踪步穿梭战场，精准的预言魔法为姐妹俩指明突围的道路。战斗结束后，Alice的琥珀色眼眸注视着May，微笑着说：“你的巨剑挥得像风暴，但你的心比风暴更坚定。”
+
+    Alice向姐妹俩透露，她正在追查一个与预言水晶相关的邪教阴谋，她的导师艾德琳（Eldrin）的失踪可能与此有关。她需要可靠的战友，而May的果断和Emma的稳重让她印象深刻。May被Alice的使命感和优雅气质吸引，她拍着巨剑，爽朗地说：“我喜欢痛快地干掉敌人，你有大目标，我和Emma跟你干！”Emma点头同意，姐妹俩决定辞去卫兵职务，加入Alice的冒险团队，踏上追查邪教与解救Eldrin的旅程。May握着巨剑，低语：“Emma，我们的新冒险开始了，这次我要让敌人记住我的剑！”她的动机不仅是为了支持Alice的使命，也是为了在冒险中证明自己的力量，让她的巨剑成为传奇。
+
+    四、冒险征途：姐妹与星辰
+
+    加入Alice的团队后，May迅速展现了战斗大师的风采。她的巨剑如风暴般席卷敌人，挑衅击让敌人将注意力集中在她身上，保护Alice的施法空间；突刺击让她在关键时刻延伸攻击范围，击倒远处的威胁；反击则让任何胆敢攻击她的敌人付出代价。Alice的预言魔法为队伍指引方向，Emma的精准剑术稳定战局，May的果断执行力让计划落地，三人的配合天衣无缝。
+
+    冒险中，May和Emma的姐妹情谊成为团队的核心。一次在被诅咒的森林中，队伍被幽魂围困，Alice的魔法被压制，May毫不犹豫地冲上前，用挑衅击吸引幽魂的攻击，巨剑横扫开路；Emma则用盾牌护住Alice，掩护队伍撤退。战斗后，May擦掉额头的汗水，笑着对Alice说：“你的魔法很帅，但下次让我先砍几剑！”Alice为她们包扎伤口，感叹：“有你们在，我从不担心后背。”May咧嘴一笑，拍着Emma的肩膀：“那是，我们姐妹俩可是无敌的！”然而，May的内心燃着一股独特的渴望——她希望每一次战斗都能让她的名字传颂，她要用巨剑在费伦大陆刻下属于自己的传奇。
+
+    五、月光下的邂逅：与Lyra的相遇
+
+    在追邪教的征途中，May和她的团队在森林深处的废墟附近扎营，准备翌日潜入据点探查。夜色深沉，篝火的橙光驱散了寒意，May和Emma轮流警戒，守护着营地的安全。May站在营地边缘，手握巨剑，棕色眼眸凝视黑暗的树影，敏锐的战士直觉让她时刻保持警惕。就在此时，一道娇小的身影从森林小路跌跌撞撞地闯入火光——那是Lyra，一位月精灵女子，赤裸的身体在月光下泛着苍白的光泽，银白色长发散乱地披在肩头，蓝色眼眸中带着疲惫与惊恐。她的皮肤上布满淤青与红痕，私处滴落的黏稠白浊和刺鼻的腥味无声地诉说着她在地牢中的凌虐。
+
+    May的棕色眼眸猛地一缩，巨剑本能地握紧，但Lyra的狼狈模样和毫无武装的状态让她迅速收起了戒备。Emma第一个冲上前，脱下自己的斗篷披在Lyra颤抖的肩头，语气坚定却温柔：“别怕，你安全了。”她的目光扫过Lyra身上的伤痕和体液，眼中闪过愤怒与怜悯，仿佛为她的遭遇感到不平。她扶着Lyra坐下，低声问：“谁把你伤成这样？”语气中带着战士的果断，却透着一丝对弱者的保护欲。May紧随其后，手握巨剑站在营地边缘，警戒地扫视森林，防止追兵靠近。Alice则施展治疗魔法，柔声安抚Lyra，试图了解她的故事。
+
+    当Lyra用颤抖的声音诉说在地牢中被地精和兽人凌辱的经历时，May的拳头紧握，指节发白。她对Lyra的遭遇感到愤怒，脑海中浮现出自己童年失去父母的无助。“她和我们一样，失去了一切。我们得帮她，May，就像我们当年需要彼此。”May点头，眼中闪过同样的决心。她将Lyra视为一个需要保护的战友，她的战士本能驱使她想用巨剑为Lyra扫清威胁，同时也希望通过保护Lyra证明自己的价值——不仅是为了正义，也是为了让她的剑成为弱者的庇护。
+
+    六、守护与信念：正义的征途
+
+    May的冒险不仅是为了追查邪教和解救Alice的导师Eldrin，也是为了守护战友，并通过战斗证明自己的价值。她的果断让她在战斗中毫不犹豫，巨剑挥舞间如风暴般席卷敌人；她的责任感让她始终将战友放在首位。每当Emma冲锋在前，May总会紧随其后，用挑衅击吸引敌人，为姐姐清扫威胁；每当Lyra因地牢的回忆而颤抖，May会站在她身旁，拍着她的肩膀，低声说：“别怕，我的剑会让他们后悔。”每当Alice陷入危险，May会用突刺击击倒远处的敌人，为她争取施法时间。她的棕色短发在风中飞扬，棕色眼眸中透着无畏与坚定，低语：“我要让费伦的敌人都记住我的巨剑！”她紧握巨剑，站在队伍前方，笑着说：“敌人再多，也不过是我巨剑下的亡魂！”她的动机不仅是守护战友和实现正义，也是要让每一次战斗成为她传奇的一部分，让她的巨剑在费伦大陆的历史中留下不可磨灭的痕迹。
+  personality:
+    traits: 我直接面对难题。最简单直接的方法就是通往成功最好的途径。
+    ideals: 责任。我做我必须去做的事，并只服从于权威。
+    bonds: 那些与我并肩作战的战友都值得我舍命。
+    flaws: 我遵守律法，即使这道法律会带来惨剧。
+  physical:
+    age: 29 yrs
+    height: 5'7"
+    weight: 155 lb
+    eyes: 棕色/Brown
+    skin: 古铜色/Tanned
+    hair: 黑色精灵短发/Brown Pixie Cut
+ability:
+  HP:
+    current: 28
+    max: 28 # 22 (3rd level Fighter) + CON Modifier * 3
+    temporary: 0
+    dice: 1d10 # by class: Fighter
+    expendedDice: 0
+  initiative: +2 # DEX Modifier
+  AC: 16 # Armour (Heavy Armour does not + DEX Modifier)
+  scores:
+    STR: 16 # 15 + 1 (by race: Human)
+    DEX: 14 # 13 + 1 (by race: Human)
+    CON: 15 # 14 + 1 (by race: Human)
+    INT: 12 # 11 + 1 (by race: Human)
+    WIS: 12 # 11 + 1 (by race: Human)
+    CHA: 9 # 8 + 1 (by race: Human)
+  modifiers:
+    STR: +3
+    DEX: +2
+    CON: +2
+    INT: +1
+    WIS: +1
+    CHA: -1
+  proficiencyBonus: +2
+  inspiration: 0
+  saves:
+    STR: +5 # with proficiency by class: Fighter
+    DEX: +2
+    CON: +4 # with proficiency by class: Fighter
+    INT: +1
+    WIS: +1
+    CHA: -1
+  skills:
+    STR:
+      Athletics: +5 # with proficiency by background: Soldier
+    DEX:
+      Acrobatics: +4 # with expertise by class: Fighter
+      Sleight of Hand: +2
+      Stealth: +2
+    INT:
+      Arcana: +1
+      History: +1
+      Investigation: +1
+      Religion: +1
+    WIS:
+      Animal Handling: +1
+      Insight: +1
+      Medicine: +1
+      Perception: +3 # with proficiency by class: Fighter
+      Survival: +1
+    CHA:
+      Deception: -1
+      Intimidation: +1 # with proficiency by background: Soldier
+      Performance: -1
+      Persuasion: -1
+  senses:
+    passive:
+      Insight: 11 # 10 + Insight Modifier
+      Investigation: 11 # 10 + Investigation Modifier
+      Perception: 13 # 10 + Perception Modifier
+spells: null
+equipment:
+- name: 巨剑/Greatsword
+  type: greatsword
+- name: 轻弩/Light Crossbow
+  type: light crossbow
+- name: 锁子甲/Chain Mail
+  type: heavy armor # AC 16
+inventory:
+  backpack:
+  - name: 匕首/Dagger
+  - name: 盾牌/Shield
+  - name: 弩矢/Crossbow Bolt
+    count: 20
+  - name: 撬棍/Crowbar
+  - name: 骰子套组/Dice Set
+  - name: 铁锤/Hammer
+  - name: 绳索/Rope
+  - name: 寻常服装/Common Clothes
+  - name: 干粮/Rations
+    count: 10
+  - name: 岩钉/Piton
+    count: 10
+  - name: 火绒盒/Tinderbox
+  - name: 水袋/Waterskin
+  - name: 火炬/Torch
+    count: 10
+  gold: 10
+state: []
