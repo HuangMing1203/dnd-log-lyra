@@ -1,0 +1,205 @@
+name: 基拉/Kira
+race:
+  name: 提夫林/Tiefling
+  subrace: 菲尔娜提夫林/Fierna Tiefling
+  size: 中型/Medium
+  speed: 30 ft
+  traits:
+  - name: 黑暗视觉/Darkvision
+    description: Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+  - name: 炼狱抗性/Hellish Resistance
+    description: You have resistance to fire damage.
+  - name: 福莱格索斯之遗赠/Legacy of Phlegethos
+    description: You know the friends cantrip. When you reach 3rd level, you can cast the charm person spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the suggestion spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.
+  proficiencies:
+    languages:
+    - 通用语/Common
+    - 炼狱语/Infernal
+level: 3
+experience: 1500
+class:
+  name: 野蛮人/Barbarian
+  subclass: 狂战士道途/Path of the Berserker
+  traits:
+  - name: 狂暴/Rage
+    description: |+
+      In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
+
+      While raging, you gain the following benefits if you aren't wearing heavy armor:
+
+      - You have advantage on Strength checks and Strength saving throws.
+      - When you make a melee weapon attack using Strength, you gain a +2 bonus to the damage roll. This bonus increases as you level.
+      - You have resistance to bludgeoning, piercing, and slashing damage.
+
+      If you are able to cast spells, you can't cast them or concentrate on them while raging.
+
+      Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
+
+      Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again. You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.
+  - name: 无甲防御/Unarmored Defense
+    description: While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.
+  - name: 险境感知/Danger Sense
+    description: At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.
+  - name: 鲁莽攻击/Reckless Attack
+    description: Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.
+  - name: 狂怒/Frenzy
+    description: Starting at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage, you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion.
+  proficiencies:
+    armour:
+    - 轻甲/Light Armour
+    - 中甲/Medium Armour
+    - 盾牌/Shield
+    saving:
+    - STR
+    - CON
+    skills:
+    - Nature
+    - Animal Handling
+    weapons:
+    - 简单武器/Simple Weapons
+    - 军用武器/Martial Weapons
+background:
+  name: 化外之民/Outlander
+  traits:
+  - name: 漂泊者/Wanderer
+    description: You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.
+  proficiencies:
+    languages:
+    - 深渊语/Abyssal
+    skills:
+    - Athletics
+    - Survival
+    tools:
+    - 鼓/Drum
+characteristics:
+  alignment: 混乱中立/Chaotic Neutral
+  faith: null
+  lifestyle: 贫穷/Poor
+  personality:
+    traits: 我更喜欢与野兽为伴，而不是与人相处。
+    ideals: 改变。生命如四季流转，变化不止，我们必须与之一同改变。
+    bonds: 我是部落最后的成员，我要确保让部落的威名人尽皆知。
+    flaws: 我对文明的规则嗤之以鼻，常常因此惹上麻烦。
+  backstory: |+
+    一、荒野的女儿
+
+    基拉（Kira）出生在费伦大陆北部的冰风谷（Icewind Dale），家族是一个由游牧猎人组成的菲尔娜提夫林部落。她的母亲是部落中最勇猛的战士，，手持战斧如风般迅捷；父亲则是萨满，崇拜风暴与烈焰的神秘力量。Kira继承了菲尔娜提夫林的血脉，深红色的皮肤、弯曲的双角和金色的眼眸让她在部落中格外显眼。她的童年充满了自由与野性：白天，她跟随母亲学习挥舞战斧，追踪雪狼的足迹；夜晚，她围坐在篝火旁，听父亲诉说魔鬼祖先的古老传说。Kira最珍贵的记忆，是母亲教她敲响战鼓，节奏如心跳般唤醒她血液中的狂热，仿佛与荒野的灵魂共鸣。Kira自小就不喜欢穿着铠甲，甚至连衣物也常常只是简陋的兽皮。她的提夫林血脉赋予了她火热的体温，即使在冰风谷刺骨的寒风中也能保持温暖。她喜欢让皮肤直接感受风雪与烈焰的触碰，这种与自然的亲密让她觉得自己真正属于这片荒野。
+
+    二、部落的覆灭
+
+    Kira十二岁那年，灾难降临。一支由霜巨人率领的掠夺者袭击了部落，冰冷的战锤与利刃撕裂了她的家园。母亲将她藏在雪堆中，用身体挡住了巨人的致命一击。Kira蜷缩在冰雪中，眼睁睁看着父母和族人倒下，部落的篝火被无情的风雪熄灭。那一夜，地狱血脉的怒火在她胸膛中熊熊燃起。她握紧母亲留下的战斧，凭借敏捷与狂怒，杀死了一名落单的掠夺者，然后逃入无尽的荒野。这场悲剧让Kira学会了用怒火掩盖悲伤，她发誓要用自己的力量守护自由，绝不再受任何束缚。
+
+    三、孤独的流浪与狂战士的觉醒
+
+    部落覆灭后，Kira成了冰风谷的孤魂。她独自在冰天雪地中流浪，靠狩猎与采集维生。菲尔娜提夫林的血脉让她能抵御酷寒与烈焰，但孤独如冰刃般刺入她的内心。她开始倾听血液中的狂热，将愤怒转化为战斗的力量。在一次与雪豹的生死搏斗中，Kira第一次进入了狂怒状态，赤手空拳撕裂了野兽的喉咙。那一刻，她感受到一种前所未有的解放——狂战士的道路在她面前展开。她磨砺战技，用战斧与长矛对抗荒野的威胁，逐渐成长为一名令人畏惧的战士。她的金色眼眸中燃烧着不屈的火焰，战斧上沾染着无数敌人的血迹。Kira的野性与力量远胜于她的外貌或言辞。她不擅长用华丽的辞藻去影响他人，更多时候是用坚定的意志和压倒性的气势让同伴信服。她的存在本身就是一种威慑，令敌人望而生畏。
+
+    四、冒险的起点
+
+    十七岁时，Kira在冰风谷外围的十镇（Ten-Towns）的一间破旧酒馆中，偶然遇到了一支冒险团队。他们被她的野性力量和无畏的气质所吸引，邀请她加入，共同对抗冰风谷的威胁。Kira起初对“文明人”嗤之以鼻，但团队中的一名矮人战士用一坛烈酒和一场酣畅淋漓的摔跤比赛赢得了她的尊重。她加入了冒险队，带着战斧与狂热，誓要在战斗中书写属于自己的传奇。在谈判和恐吓时，Kira往往依赖她的气势和野性，而非言语的魅力；她的狂怒则让敌人闻风丧胆。
+
+    五、艾尔文城的召唤
+
+    多年后，Kira的冒险足迹将她带到了费伦大陆南方的港口城市艾尔文城（City of Alvine）。这座繁华的港口城市充满了喧嚣的商贾、闪烁的灯火和来自世界各地的冒险者，与冰风谷的荒凉形成了鲜明对比。Kira对城市的规则与繁文缛节感到格格不入，她依然习惯于简朴甚至裸露的装束，常常引来异样的目光，但她被港口传来的海风与冒险的召唤所吸引。一天，她在码头附近的一家喧闹酒馆中，卷入了一场由盗贼挑起的混乱。一名名叫爱丽丝（Alice）的女冒险者带领她的队伍，以精准的配合与无畏的勇气平息了骚乱。Alice注意到了Kira在混乱中挥舞战斧的英姿，她的野性与力量让这位冒险队长印象深刻。
+
+    Alice主动找到Kira，邀请她加入自己的冒险队。起初，Kira对加入另一个团队犹豫不决——她早已习惯独来独往，况且她对城市的热闹与复杂心存戒备。然而，Alice的坦率与对冒险的热情打动了她。在一次深夜的交谈中，Alice分享了自己追寻失落遗迹的梦想，以及她对团队中每位成员的信任。这让Kira想起了自己失去的部落，她感受到了一种久违的归属感。于是，Kira决定加入Alice的冒险队，带着她的战斧、战鼓和不屈的意志，准备在这片陌生的土地上开启新的篇章。她希望通过这次冒险，不仅能为自己的部落赢得荣耀，还能找到属于自己的新生。
+  physical:
+    age: 28 yrs
+    height: 6'0"
+    weight: 150 lb
+    eyes: 金色/Golden
+    skin: 深红色/Dark Red
+    hair: 黑色长直发/Black Long Straight
+ability:
+  HP:
+    current: 34
+    max: 34 # 26 (3rd level Barbarian) + CON Modifier * 3
+    temporary: 0
+    dice: 1d12 # by class: Barbarian
+    expendedDice: 0
+  initiative: +2 # DEX Modifier
+  AC: 13 # 10 + DEX Modifier + CON Modifier
+  scores:
+    STR: 14
+    DEX: 12
+    CON: 15
+    INT: 8
+    WIS: 14 # 13 + 1 (by race: Fierna Tiefling)
+    CHA: 12 # 10 + 2 (by race: Tiefling)
+  modifiers:
+    STR: +2
+    DEX: +1
+    CON: +2
+    INT: -1
+    WIS: +2
+    CHA: +1
+  proficiencyBonus: +2
+  inspiration: 0
+  saves:
+    STR: +4 # with proficiency by class: Barbarian
+    DEX: +1
+    CON: +4 # with proficiency by class: Barbarian
+    INT: -1
+    WIS: +2
+    CHA: +1
+  skills:
+    STR:
+      Athletics: +4 # with proficiency by background: Outlander
+    DEX:
+      Acrobatics: +1
+      Sleight of Hand: +1
+      Stealth: +1
+    INT:
+      Arcana: -1
+      History: -1
+      Investigation: -1
+      Nature: +1 # with proficiency by class: Barbarian
+      Religion: -1
+    WIS:
+      Animal Handling: +4 # with proficiency by class: Barbarian
+      Insight: +2
+      Medicine: +2
+      Perception: +2
+      Survival: +4 # with proficiency by background: Outlander
+    CHA:
+      Deception: +1
+      Intimidation: +1
+      Performance: +1
+      Persuasion: +1
+  senses:
+    darkvision: 60 ft # by race: Tiefling
+    passive:
+      Insight: 11 # 10 + Insight Modifier
+      Investigation: 9 # 10 + Investigation Modifier
+      Perception: 11 # 10 + Perception Modifier
+spells:
+  castingAbility: CHA
+  saveDC: 11 # 8 + Proficiency Bonus + Casting Ability Modifier
+  attackBonus: +3 # Proficiency Bonus + Casting Ability Modifier
+  cantrips:
+  - 交友术/Friends # by race: Fierna Tiefling
+  2nd-level:
+  - 魅惑人类/Charm Person # by race: Fierna Tiefling
+equipment:
+- name: 巨斧/Greataxe
+  type: greataxe
+- name: 投石索/Sling
+  type: sling
+inventory:
+  backpack:
+  - name: 手杖/Quarterstaff
+  - name: 狩猎陷阱/Hunting Trap
+  - name: 旅行者服装/Traveler's Clothes
+  - name: 山羊头骨/Skull of Goat
+  - name: 标枪/Javelin
+    count: 4
+  - name: 野炊工具组/Mess Kit
+  - name: 睡袋/Bedroll
+  - name: 绳索/Rope
+  - name: 火绒盒/Tinderbox
+  - name: 水袋/Waterskin
+  - name: 火炬/Torch
+    count: 10
+  - name: 干粮/Rations
+    count: 10
+  gold: 10
+state: []
