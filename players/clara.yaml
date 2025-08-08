@@ -1,0 +1,273 @@
+name: 克拉拉/Clara
+race:
+  name: 矮人/Dwarf
+  subrace: 盾矮人/Shield Dwarf # Shield Dwarf is a kind of Mountain Dwarf
+  size: 中型/Medium
+  speed: 25 ft
+  traits:
+  - name: 移动速度/Speed
+    description: Your speed is not reduced by wearing heavy armor.
+  - name: 黑暗视觉/Darkvision
+    description: Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+  - name: 矮人韧性/Dwarven Resilience
+    description: You have advantage on saving throws against poison, and you have resistance against poison damage.
+  - name: 石工专长/Stonecunning
+    description: Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+  proficiencies:
+    armour:
+    - 轻甲/Light Armour
+    - 中甲/Medium Armour
+    languages:
+    - 通用语/Common
+    - 矮人语/Dwarvish
+    tools:
+    - 酿酒工具/Brewer's Supplies
+    weapons:
+    - 战斧/Battleaxe
+    - 手斧/Handaxe
+    - 轻锤/Light Hammer
+    - 战锤/Warhammer
+level: 3
+experience: 2100
+class:
+  name: 牧师/Cleric
+  subclass: 生命领域/Life Domain
+  traits:
+  - name: 生命门徒/Disciple of Life
+    description: Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level.
+  - name: 引导神力/Channel Divinity
+    description: |+
+      At 2nd level, you gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional effects as you advance in levels, as noted in the domain description.
+
+      When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again.
+
+      Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.
+
+      Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.
+  - name: 驱散不死/Turn Undead
+    description: |+
+      As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+
+      A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.
+  - name: 神力掌控/Harness Divine Power
+    description: You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.
+  - name: 维系生命/Preserve Life
+    description: |+
+      Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.
+
+      As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.
+  proficiencies:
+    armour:
+    - 轻甲/Light Armor
+    - 中甲/Medium Armor
+    - 重甲/Heavy Armour # by subclass: Life Domain
+    - 盾牌/Shield
+    saving:
+    - WIS
+    - CHA
+    skills:
+    - History
+    - Medicine
+    weapons:
+    - 简单武器/Simple Weapons
+background:
+  name: 侍僧/Acolyte
+  traits:
+  - name: 信徒庇护/Shelter of the Faithful
+    description: |+
+      As an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.
+
+      You might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.
+  proficiencies:
+    skills:
+    - Insight
+    - Religion
+    languages:
+    - 精灵语/Elvish
+    - 侏儒语/Gnomish
+characteristics:
+  alignment: 守序善良/Lawful Good
+  faith: 淑妮/Sune # Goddess of Love and Beauty
+  lifestyle: 舒适/Comfortable
+  personality:
+    traits: 我对于其他信仰抱持着宽容的态度，并且尊重崇拜其他诸神的行为。
+    ideals: 慷慨。无论要付出多少，我都会尽力去帮助那些需要帮助的人。
+    bonds: 我会为了保护我所侍奉的教会而做出任何事。
+    flaws: 我的虔诚心有时会让我盲目信任那些声称归信我教的人。
+  backstory: |+
+    一、贫民窟的火光
+
+    克拉拉（Clara）出生于繁华却充满阴影的艾尔文城（City of Alvine）下城区。这里是贫民、流浪者和异乡人的聚集地，狭窄的石板巷道中弥漫着铁锈与炊烟的气息。她的父母是普通的铁匠，靠为码头工人修补工具和武器维生。家中虽贫困，却充满温情。Clara自小在铁砧与火炉旁长大，双手早早沾染了煤灰，却也学会了在困苦中发现生活的美好。她喜欢在黄昏时分，坐在家门口看着夕阳映红天际，幻想着有朝一日能走出下城区，见识更广阔的世界。
+
+    二、烈焰中的神迹
+
+    十岁那年，一场突如其来的大火吞噬了她的所居住的街区。火焰肆虐，浓烟滚滚，Clara在混乱中与家人失散，独自困在燃烧的巷道尽头。就在她几乎绝望时，火光中浮现出一位美丽的红发女神幻影，温柔地向她伸出手。那一刻，Clara感受到前所未有的安宁与勇气，仿佛有无形的力量指引她穿越火海，最终获救。她坚信，是淑妮（Sune）——爱与美的女神——在危难时刻拯救了自己。从此，Clara心中埋下了信仰的种子。
+
+    三、神殿的庇护与成长
+
+    火灾后，Clara成为孤儿，被善良的淑妮神殿祭司收养。神殿坐落于艾尔文城的上城区，金色圆顶在阳光下熠熠生辉，与下城区的贫瘠形成鲜明对比。Clara在神殿中学习医治、祈祷与礼仪，逐渐展现出非凡的同情心和治愈天赋。她常常主动照料伤病者，为流浪儿分发食物，用温柔的话语安慰失落的信徒。神殿的生活安稳而充实，但Clara始终没有忘记下城区的苦难，她时常偷偷溜回旧巷，为贫民疗伤、送去温暖。
+
+    四、命运的邂逅
+
+    某日，一位日精灵法师——爱丽丝（Alice）——带着疑惑与焦虑来到神殿，寻求关于命运与预言的神谕。Clara被Alice对知识的渴望与对正义的执着所吸引，两人在长椅上促膝长谈，分享各自的理想与过往。Clara第一次感受到，神的旨意不应只局限于神殿之内。Alice邀请她一同踏上冒险旅程，追寻失踪导师的下落，并对抗潜藏在暗处的邪教势力。Clara深知，只有走出神殿，才能将爱与美的信仰带给更多需要帮助的人。她怀着传播善良与治愈的理想，毅然告别了神庙的安逸生活，加入了Alice的冒险队。
+
+    五、旅途中的考验与成长
+
+    离开神殿后，Clara与队友们穿越森林、沼泽与山脉，面对盗贼、怪物与阴谋。她用神圣的祈祷为同伴疗伤，用坚定的信念鼓舞士气。每当夜幕降临，她会在篝火旁为队友讲述淑妮的故事，提醒大家即使在最黑暗的时刻也不要放弃希望。旅途的艰辛让她更加坚韧，也让她明白，真正的美不仅存在于神殿的金碧辉煌，更在于每一次善行与每一颗温暖的心。
+
+    六、怜悯与守护
+
+    在冒险途中，Clara与队友们救下了一位身心俱伤的精灵少女——莱拉（Lyra）。当她得知Lyra曾在黑暗的妓院中遭受非人的折磨，甚至被药物与鞭打摧残时，Clara感到无比震惊与愤怒。她用神圣的祈祷为Lyra疗伤，温柔地安慰她，坚信即使在最黑暗的深渊中，爱与美也能带来希望。Clara发誓要守护Lyra，帮助她重拾尊严与自信。她的善良与坚定不仅成为队伍的后盾，也让Lyra在绝望中看见了新的曙光。
+
+    七、信仰的灯塔
+
+    如今，Clara以信仰为灯，陪伴队友们踏上未知的旅途。她相信，只要心怀善意与美好，无论前路多么艰险，都能点亮他人的生命。她时常回忆起下城区的火光与神殿的温暖，提醒自己：真正的神迹，源自每一次无私的付出与每一份真挚的关怀。
+  physical:
+    age: 55 yrs # Equivalent to 20 yrs for humans
+    height: 4'4"
+    weight: 145 lb
+    eyes: 棕色/Brown
+    skin: 小麦色/Tan
+    hair: 棕色长发/Brown Long
+ability:
+  HP:
+    current: 27
+    max: 27 # 18 (3rd level Cleric) + CON Modifier * 3
+    temporary: 0
+    dice: 1d8 # by class: Cleric
+    expendedDice: 0
+  initiative: -1 # DEX Modifier
+  AC: 18 # Armour (Heavy Armour does not + DEX Modifier)
+  scores:
+    STR: 15 # 13 + 2 (by race: Shield Dwarf)
+    DEX: 8
+    CON: 16 # 14 + 2 (by race: Dwarf)
+    INT: 10
+    WIS: 15
+    CHA: 12
+  modifiers:
+    STR: +2
+    DEX: -1
+    CON: +3
+    INT: 0
+    WIS: +2
+    CHA: +1
+  proficiencyBonus: +2
+  inspiration: 0
+  saves:
+    STR: +2
+    DEX: -1
+    CON: +3
+    INT: 0
+    WIS: +4 # with proficiency by class: Cleric
+    CHA: +3 # with proficiency by class: Cleric
+  skills:
+    STR:
+      Athletics: +2
+    DEX:
+      Acrobatics: -1
+      Sleight of Hand: -1
+      Stealth: -1
+    INT:
+      Arcana: 0
+      History: +2 # with proficiency by class: Cleric
+      Investigation: 0
+      Religion: +2 # with proficiency by background: Acolyte
+    WIS:
+      Animal Handling: +2
+      Insight: +4 # with proficiency by background: Acolyte
+      Medicine: +4 # with proficiency by class: Cleric
+      Perception: +2
+      Survival: +2
+    CHA:
+      Deception: +1
+      Intimidation: +1
+      Performance: +1
+      Persuasion: +1
+  senses:
+    darkvision: 60 ft # by race: Dwarf
+    passive:
+      Insight: 14 # 10 + Insight Modifier
+      Investigation: 10 # 10 + Investigation Modifier
+      Perception: 12 # 10 + Perception Modifier
+spells:
+  castingAbility: WIS
+  saveDC: 12 # 8 + Proficiency Bonus + Casting Ability Modifier
+  attackBonus: +4 # Proficiency Bonus + Casting Ability Modifier
+  castingMedium: 圣徽/Holy Symbol
+  slots:
+    total:
+      1st-level: 4
+      2nd-level: 2
+    expended:
+      1st-level: 0
+      2nd-level: 0
+  # Number of Prepared Cleric Spells = 2 (WIS Modifier) + 3 (Cleric Level) = 5
+  cantrips:
+  - 神导术/Guidance
+  - 修复术/Mending
+  - 圣焰/Sacred Flame
+  1st-level:
+  - 灾祸术/Bane
+  - 祝福术/Bless # Prepared by Life Domain
+  - 命令术/Command # Prepared
+  - 造水术/Create or Destroy Water
+  - 治疗伤势/Cure Wounds # Prepared by Life Domain
+  - 侦测善恶/Detect Evil and Good
+  - 侦测疾病/Detect Poison and Disease
+  - 侦测魔法/Detect Magic
+  - 光导箭/Guiding Bolt
+  - 治愈真言/Healing Word
+  - 造成伤势/Inflict Wounds
+  - 防护善恶/Protection from Evil and Good
+  - 净化饮食/Purify Food and Drink
+  - 圣域术/Sanctuary
+  - 虔诚护盾/Shield of Faith # Prepared
+  2nd-level:
+  - 援助术/Aid
+  - 卜筮/Augury
+  - 失明术/Blindness/Deafness
+  - 安定心神/Calm Emotions # Prepared
+  - 不灭明焰/Continual Flame
+  - 强化属性/Enhance Ability # Prepared
+  - 寻找陷阱/Find Traps
+  - 遗体防腐/Gentle Repose
+  - 人类定身术/Hold Person
+  - 次级复原术/Lesser Restoration # Prepared by Life Domain
+  - 物品定位术/Locate Object
+  - 治愈祈祷/Prayer of Healing
+  - 防护毒素/Protection from Poison
+  - 沉默术/Silence # Prepared
+  - 灵体武器/Spiritual Weapon # Prepared by Life Domain
+  - 守护联结/Warding Bond
+  - 诚实之域/Zone of Truth
+equipment:
+- name: 战锤/Warhammer
+  type: warhammer
+- name: 轻弩/Light Crossbow
+  type: light crossbow
+- name: 锁子甲/Chain Mail
+  type: heavy armor # AC 16
+- name: 盾牌/Shield
+  type: shield
+- name: 圣徽/Holy Symbol
+  type: amulet
+inventory:
+  backpack:
+  - name: 箭矢/Arrows
+    count: 20
+  - name: 祷经/Prayer Book
+  - name: 寻常服装/Common Clothes
+  - name: 祭祀服/Vestments
+  - name: 香炉/Censer
+  - name: 焚香/Incense
+    count: 7
+  - name: 水袋/Waterskin
+  - name: 火绒盒/Tinderbox
+  - name: 善款盒/Alms Box
+  - name: 蜡烛/Torch
+    count: 10
+  - name: 干粮/Rations
+    count: 2
+  gold: 15
+state: []
