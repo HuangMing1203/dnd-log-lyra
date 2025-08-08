@@ -1,0 +1,11 @@
+name: 菲比/Phoebe
+race:
+  name: 侏儒/Gnome
+  subrace: 岩侏儒/Rock Gnome
+level: 3
+experience: 2000
+class:
+  name: 术士/Sorcerer
+  subclass: 时械之魂/Clockwork Soul
+background:
+  name: 工会工匠/Guild Artisan

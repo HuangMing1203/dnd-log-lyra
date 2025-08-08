@@ -1,0 +1,10 @@
+name: 莎拉/Sarah
+race:
+  name: 人类/Human
+level: 3
+experience: 1800
+class:
+  name: 游侠/Ranger
+  subclass: 猎人/Hunter
+background:
+  name: 平民英雄/Folk Hero
