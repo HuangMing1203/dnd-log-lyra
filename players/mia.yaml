@@ -1,0 +1,10 @@
+name: 米娅/Mia
+race:
+  name: 半精灵/Half-Elf
+level: 3
+experience: 2000
+class:
+  name: 吟游诗人/Bard
+  subclass: 轶闻学院/College of Lore
+background:
+  name: 艺人/Entertainer

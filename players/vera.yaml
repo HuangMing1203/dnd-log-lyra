@@ -1,0 +1,11 @@
+name: 薇拉/Vera
+race:
+  name: 精灵/Elf
+  subrace: 木精灵/Wood Elf
+level: 3
+experience: 1800
+class:
+  name: 德鲁伊/Druid
+  subclass: 大地结社/Circle of the Land
+background:
+  name: 隐士/Hermit
