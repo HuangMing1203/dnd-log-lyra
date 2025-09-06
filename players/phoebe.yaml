@@ -1,0 +1,228 @@
+name: 菲比/Phoebe
+race:
+  name: 侏儒/Gnome
+  subrace: 岩侏儒/Rock Gnome
+  size: 小型/Small
+  speed: 25 ft
+  traits:
+  - name: 黑暗视觉/Darkvision
+    description: Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.
+  - name: 侏儒狡黠/Gnome Cunning
+    description: You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
+  - name: 良工巧匠/Artificer's Lore
+    description: Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.
+  - name: 修补匠/Tinker
+    description: You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.
+  proficiencies:
+    languages:
+    - 通用语/Common
+    - 侏儒语/Gnomish
+    tools:
+    - 修理工具/Tinker's Tools
+level: 3
+experience: 2000
+class:
+  name: 术士/Sorcerer
+  subclass: 狂野魔法/Wild Magic
+  traits:
+  - name: 狂野魔法浪涌/Wild Magic Surge
+    description: |+
+      Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a d20. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect. A Wild Magic Surge can happen once per turn.
+
+      If a Wild Magic effect is a spell, it's too wild to be affected by Metamagic. If it normally requires concentration, it doesn't require concentration in this case; the spell lasts for its full duration.
+  - name: 易变施法/Flexible Casting
+    description: |+
+      You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.
+
+      **Creating Spell Slots.** You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The created spell slots vanish at the end of a long rest. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.
+
+      **Converting a Spell Slot to Sorcery Points.** As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.
+  - name: 谨慎法术/Careful Spell
+    description: When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.
+  proficiencies:
+    armour: []
+    saving:
+    - CON
+    - CHA
+    skills:
+    - Arcana
+    - Deception
+    tools: []
+    weapons:
+    - 匕首/Dagger
+    - 飞镖/Dart
+    - 投石索/Sling
+    - 手杖/Quarterstaff
+    - 轻弩/Light Crossbow
+background:
+  name: 工会工匠/Guild Artisan
+  traits:
+  - name: 公会成员/Guild Membership
+    description: |+
+      As an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.
+
+      Guilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild's coffers.
+
+      You must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild's good graces.
+  proficiencies:
+    skills:
+    - Insight
+    - Persuasion
+    languages:
+    - 矮人语/Dwarvish
+    tools:
+    - 珠宝匠工具/Jeweler's Tools
+characteristics:
+  alignment: 中立善良/Neutral Good
+  faith: 艾拉西斯/Erathis # Goddess of Civilization and Invention
+  lifestyle: 适中/Modest
+  personality:
+    traits: 我相信那些值得去做的事情就值得做到最好。我情不自禁—我是完美主义者。
+    ideals: 抱负。我努力工作以在我的行业中做到最好。
+    bonds: 公会造就了今天的我，我愿为其付出一切。
+    flaws: 我有时太过自信，低估了魔法的不可控性。
+  backstory: |+
+    一、宝石之家的天才
+
+    菲比（Phoebe）出生于艾尔文城（City of Alvine）著名的宝石匠世家。家族世代以雕琢魔法宝石闻名，父母皆为工会中受人尊敬的珠宝大师。自幼，Phoebe便在宝石的光辉与魔法的氛围中长大，展现出超乎寻常的手艺与对魔法宝石的敏锐感知。她喜欢在父亲的工作台旁观察切割与镶嵌的每一个细节，也常常在母亲的指导下练习雕琢与魔法符文的刻写。年幼的Phoebe便以精湛的雕琢技艺闻名，是同龄人中最优秀的宝石匠。
+
+    二、工会的荣耀与责任
+
+    随着年岁增长，Phoebe顺利加入了宝石匠工会，成为最年轻的正式成员。她不仅继承了家族的技艺，还积极参与工会的事务，协助管理珠宝交易、鉴定魔法宝石、培训新学徒。工会的长辈们对她寄予厚望，认为她将成为艾尔文城未来的工匠领袖。Phoebe也以工会为荣，努力工作，追求完美，渴望在行业中做到最好。
+
+    三、魔法风暴的觉醒
+
+    某日，Phoebe受托为一位贵族鉴定并雕琢一颗罕见的魔法宝石。她在处理宝石时，意外触发了内部的魔法阵，导致一场无法预料的魔法风暴。风暴席卷了她的工作室，也将狂暴的魔力灌注进她的身体。从那以后，Phoebe体内充满了难以控制的狂野魔法。每当她尝试专注于精细的宝石雕刻时，体内的魔力便会不受抑制地涌动，令她无法再完成以往那样精致的工艺。家族虽心疼她的遭遇，但也无力帮助她掌控这股力量。
+
+    四、离别与冒险的起点
+
+    狂暴魔力的困扰让Phoebe陷入自我怀疑与迷茫。她无法再专注于宝石的精雕细琢，工会的荣耀变成了沉重的负担。为了寻找抑制和掌控体内狂野魔法的方法，Phoebe决定离开家族和工会，踏上冒险之路。她希望有朝一日能重新掌控自己的魔力，恢复宝石匠的荣耀，并将自己的经历转化为新的创造灵感。
+
+    五、旅途中的成长
+
+    在冒险旅途中，Phoebe结识了来自各地的同伴，学习了不同的魔法与工艺。她用自己的魔法与巧思帮助队友解决难题，也在战斗中逐渐学会控制体内的狂野魔力。她坚信，只要不断努力，总有一天能将这份力量转化为创造的源泉，重返工会，成为真正的宝石大师。
+
+    六、命运的交汇：加入冒险队
+
+    近期，Phoebe在艾尔文城结识了日精灵法师爱丽丝（Alice）及其同伴，被Alice的智慧与正义感所吸引。得知Alice正在追寻失踪导师的踪迹，并调查与魔法相关的神秘事件后，Phoebe主动加入了Alice的冒险队。她希望在旅途中不仅能帮助队伍，也能借助Alice及其导师的奥术知识，找到抑制和掌控体内狂野魔力的方法。Phoebe相信，只要与志同道合的伙伴同行，终有一天能够实现自我救赎与突破。
+  physical:
+    age: 25 yrs
+    height: 3'4"
+    weight: 40 lb
+    eyes: 蓝色/Blue
+    skin: 浅褐色/Light Brown
+    hair: 棕色卷发/Brown Curly
+ability:
+  HP:
+    current: 23
+    max: 23 # 14 (3rd level Sorcerer) + CON Modifier * 3
+    temporary: 0
+    dice: 1d6 # by class: Sorcerer
+    expendedDice: 0
+  initiative: +1 # DEX Modifier
+  AC: 11 # Armour + DEX Modifier
+  scores:
+    STR: 12
+    DEX: 13
+    CON: 16 # 15 + 1 (by race: Rock Gnome)
+    INT: 10 # 8 + 2 (by race: Gnome)
+    WIS: 10
+    CHA: 14
+  modifiers:
+    STR: +1
+    DEX: +1
+    CON: +3
+    INT: 0
+    WIS: 0
+    CHA: +2
+  proficiencyBonus: +2
+  inspiration: 0
+  saves:
+    STR: +1
+    DEX: +1
+    CON: +5 # with proficiency by class: Sorcerer
+    INT: 0
+    WIS: 0
+    CHA: +4 # with proficiency by class: Sorcerer
+  skills:
+    STR:
+      Athletics: +1
+    DEX:
+      Acrobatics: +1
+      Sleight of Hand: +1
+      Stealth: +1
+    INT:
+      Arcana: +2 # with proficiency by class: Sorcerer
+      History: 0
+      Investigation: 0
+      Religion: 0
+    WIS:
+      Animal Handling: 0
+      Insight: +2 # with proficiency by background: Guild Artisan
+      Medicine: 0
+      Perception: 0
+      Survival: 0
+    CHA:
+      Deception: +4 # with proficiency by class: Sorcerer
+      Intimidation: +2
+      Performance: +2
+      Persuasion: +4 # with proficiency by background: Guild Artisan
+  senses:
+    darkvision: 60 ft # by race: Gnome
+    passive:
+      Insight: 12 # 10 + Insight Modifier
+      Investigation: 10 # 10 + Investigation Modifier
+      Perception: 10 # 10 + Perception Modifier
+spells:
+  castingAbility: CHA
+  saveDC: 12 # 8 + Proficiency Bonus + CHA Modifier
+  attackBonus: +4 # Proficiency Bonus + CHA Modifier
+  castingMedium: 水晶戒指/Crystal Ring
+  slots:
+    total:
+      1st-level: 4
+      2nd-level: 2
+    expended:
+      1st-level: 0
+      2nd-level: 0
+  cantrips:
+  - 火焰箭/Fire Bolt
+  - 法师之手/Mage Hand
+  - 修复术/Mending
+  - 魔法伎俩/Prestidigitation
+  1st-level:
+  - 幻色法球/Chromatic Orb
+  - 魔法飞弹/Magic Missile
+  2nd-level:
+  - 匕首之云/Cloud of Daggers
+  - 粉碎音波/Shatter
+equipment:
+- name: 匕首/Dagger
+  type: dagger
+- name: 匕首/Dagger # Dual Wield
+  type: dagger
+- name: 轻弩/Light Crossbow
+  type: light crossbow
+- name: 旅行者服装/Traveler's Clothes
+  type: clothing
+- name: 水晶戒指/Crystal Ring # Arcane Focus
+  type: ring
+inventory:
+  backpack:
+  - name: 箭矢/Arrows
+    count: 20
+  - name: 撬棍/Crowbar
+  - name: 铁锤/Hammer
+  - name: 绳索/Rope
+  - name: 干粮/Rations
+    count: 10
+  - name: 岩钉/Piton
+    count: 10
+  - name: 火绒盒/Tinderbox
+  - name: 水袋/Waterskin
+  - name: 火炬/Torch
+    count: 10
+  - name: 珠宝匠工具/Jeweler's Tools
+  - name: 来自宝石匠工会的介绍信/Letter of Introduction from the Jewelers' Guild
+  gold: 15
+state: []
